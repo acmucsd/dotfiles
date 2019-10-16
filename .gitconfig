@@ -1,0 +1,14 @@
+[user]
+	email = email@website.com
+    name = name
+
+[core]
+        autocrlf = input
+
+[push]
+        default = current
+
+[alias]
+        unstage = reset HEAD --
+        gconf = config --global
+        hist = log --graph --oneline --decorate --all
