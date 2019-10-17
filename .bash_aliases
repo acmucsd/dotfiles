@@ -8,7 +8,7 @@ alias vimrc='vim ~/.vimrc'
 alias bashrc='vim ~/.bashrc'
 
 # Re-source .bashrc and aliases
-alias re-source='source ~/.bashrc; source ~/.bash_aliases; source ~/.vimrc'
+alias re-source='source ~/.bashrc; source ~/.bash_aliases;'
 
 # Evaluates mathematical expression (From CSE15L Lab 7)
 function calc {
